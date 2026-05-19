@@ -58,7 +58,7 @@ function Card({ iconBg, icon, label, children }) {
 
 export default function CareNote() {
   const [apiKey, setApiKey] = useState("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");
-const [apiKeySet, setApiKeySet] = useState(true);
+  const [apiKeySet, setApiKeySet] = useState(true);
   const [tab, setTab] = useState("upload");
   const [text, setText] = useState("");
   const [file, setFile] = useState(null);
